@@ -5,7 +5,9 @@
   "main": "lib/jus.js",
   "bin": "cli.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha --check-leaks --globals __core-js_shared__,index"
+    "test": "NODE_ENV=test mocha --check-leaks --globals __core-js_shared__,index",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": "github:zeke/jus",
   "website": "http://jus.js.org",
@@ -70,7 +72,7 @@
     "image-size": "^0.4.0",
     "inflection": "^1.8.0",
     "js-yaml": "^3.4.6",
-    "less": "^2.6.1",
+    "less": "^3.0.2",
     "lil-env-thing": "^1.0.0",
     "lobars": "^1.2.0",
     "lodash": "^4.0.0",
@@ -82,6 +84,8 @@
     "open": "0.0.5",
     "require-dir": "^0.3.0",
     "stylus": "^0.54.0",
-    "tmp": "0.0.28"
-  }
+    "tmp": "0.0.28",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
