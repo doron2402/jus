@@ -70,7 +70,7 @@
     "image-size": "^0.4.0",
     "inflection": "^1.8.0",
     "js-yaml": "^3.4.6",
-    "less": "^2.6.1",
+    "less": "^3.0.2",
     "lil-env-thing": "^1.0.0",
     "lobars": "^1.2.0",
     "lodash": "^4.0.0",
