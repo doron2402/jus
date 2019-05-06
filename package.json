@@ -5,7 +5,9 @@
   "main": "lib/jus.js",
   "bin": "cli.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha --check-leaks --globals __core-js_shared__,index"
+    "test": "NODE_ENV=test mocha --check-leaks --globals __core-js_shared__,index",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": "github:zeke/jus",
   "website": "http://jus.js.org",
@@ -82,6 +84,8 @@
     "open": "0.0.5",
     "require-dir": "^0.3.0",
     "stylus": "^0.54.0",
-    "tmp": "0.0.28"
-  }
+    "tmp": "0.0.28",
+    "snyk": "^1.161.1"
+  },
+  "snyk": true
 }
