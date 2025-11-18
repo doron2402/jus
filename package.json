@@ -69,7 +69,7 @@
     "html-frontmatter": "^1.6.0",
     "image-size": "^0.4.0",
     "inflection": "^1.8.0",
-    "js-yaml": "^3.4.6",
+    "js-yaml": "^4.1.1",
     "less": "^2.6.1",
     "lil-env-thing": "^1.0.0",
     "lobars": "^1.2.0",
